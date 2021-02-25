@@ -1,0 +1,10 @@
+.reporte {
+	width: 80%;
+	height: 500px;
+	margin: 0px auto;
+}
+
+.reporte iframe {
+	width: 100%;
+	height: 100%;
+}

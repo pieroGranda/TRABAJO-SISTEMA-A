@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: none;
+
+}
+
+:root {
+	--bgc--principal: #007a98;
+	--bgc--secundario: #f3f3f3;
+}
+
+.table,
+.form--report {
+	grid-template-rows: auto;
+	margin: 0px auto;
+	margin-top: 20px;
+	display: grid;
+}
+
+
+input[type=text]{
+
+	padding: 8px;
+	border: 1px solid #ddd;
+}
+input[type=text]:focus{
+	outline: none;
+	border: 1px solid var(--bgc--principal);
+}
+
+.table .table--tr,
+.form--report--inputs {
+	display: flex;
+	width: 100%;
+}
+
+.table .table--tr,
+.form--report--inputs {
+	align-items: center;
+}
+
+.form--report--inputs--right,
+.table .table--tr.text--right{
+		justify-content: flex-end;
+}

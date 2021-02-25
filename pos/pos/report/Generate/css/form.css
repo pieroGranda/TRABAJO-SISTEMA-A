@@ -1,0 +1,20 @@
+.form--report {
+	grid-template-columns: 1.2fr 2fr;
+	grid-template-rows: auto;
+	width: 60%;
+}
+
+.form--report--inputs {
+	height: 30px;
+	padding: 10px;
+	font-size: 0.7em;
+	margin-bottom: 10px;
+}
+
+.form--report--inputs select {
+	width: 100%;
+}
+
+.form--report--inputs h4 {
+	margin-right: 20px;
+}
